@@ -15,6 +15,8 @@ class CalculationsController < ApplicationController
 
     @character_count_with_spaces = @text.split("").count
     
+    # this doesnt look right
+    
 
     @character_count_without_spaces = "Replace this string with your answer."
 
