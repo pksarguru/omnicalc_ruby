@@ -13,7 +13,8 @@ class CalculationsController < ApplicationController
 
     @word_count = @text.split.count
 
-    @character_count_with_spaces = "Replace this string with your answer."
+    @character_count_with_spaces = @text.split("").count
+    
 
     @character_count_without_spaces = "Replace this string with your answer."
 
