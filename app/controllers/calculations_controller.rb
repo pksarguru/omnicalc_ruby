@@ -18,7 +18,7 @@ class CalculationsController < ApplicationController
     # this doesnt look right
     
 
-    @character_count_without_spaces = @text.gsub(" ", "").count
+    @character_count_without_spaces = "replace string with code"
 
     @occurrences = "Replace this string with your answer."
 
